@@ -43,8 +43,9 @@ section {
 }
 
 .back {
-  background: white;
+  background-image: url(./img/card.jpeg);
   backface-visibility: hidden;
+  
 }
 
 
