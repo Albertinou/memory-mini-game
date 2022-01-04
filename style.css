@@ -31,7 +31,7 @@ section {
   position: relative;
   transform-style: preserve-3d;
   transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  box-shadow: rgba(0,0,0,0.9) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.9) 0px 5px 15px;
 }
 
 .face,
@@ -43,11 +43,10 @@ section {
 }
 
 .back {
-  background-image: url(./img/card.jpeg);
+  background: rgb(79,71,196);
+  background: linear-gradient(90deg, rgba(79,71,196,1) 0%, rgba(0,175,173,1) 100%);
   backface-visibility: hidden;
-  
 }
-
 
 .toggleCard {
   transform: rotateY(180deg);
